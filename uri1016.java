@@ -1,23 +1,21 @@
-import java.util.Locale;
 import java.util.Scanner;
 
-
 //Antes de submeter esse exercício na plataforma uri judge, mudar on-line o nome da classe para Main.
-public class uri1002 {
+public class uri1016 {
 
+	
 	public static void main(String[] args) {
+	
+		int km, minutos = 2, tempo ;
 		
-		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double R, A, pi = 3.14159;
-	    
-	    R = sc.nextDouble();
-
-	    A = pi * R * R;
-
-	    System.out.printf("A=%.4f%n", A);
-
+		km = sc.nextInt();
+		tempo = km * minutos;
+		
+		System.out.println(tempo + " minutos");
+		
 		sc.close();
 	}
+
 }
