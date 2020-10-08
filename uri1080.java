@@ -11,7 +11,7 @@ public class uri1080 {
 		int posicao = 1;
 
 		// agora vamos ler o segundo até o centésimo 
-		for (int i=2; i<=10; i++) {
+		for (int i=2; i<=100; i++) {
 			int x = sc.nextInt();
 			if (x > maior) {
 				maior = x;
